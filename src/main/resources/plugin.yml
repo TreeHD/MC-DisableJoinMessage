@@ -1,0 +1,4 @@
+name: DisableMessage
+version: ${project.version}
+main: io.github.treexhd.disablemessage.DisableMessage
+api-version: 1.16
