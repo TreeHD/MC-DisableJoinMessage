@@ -11,10 +11,10 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.event.Event;
 
 public class DisableMessageListener implements Listener {
-    @EventHandler
-    public void onPlayerJoin(PlayerJoinEvent e) {
-        e.setJoinMessage("");
-    }
+//     @EventHandler
+//     public void onPlayerJoin(PlayerJoinEvent e) {
+//         e.setJoinMessage("");
+//     }
 
     @EventHandler
     public void onPlayerQuit(PlayerQuitEvent e) {
