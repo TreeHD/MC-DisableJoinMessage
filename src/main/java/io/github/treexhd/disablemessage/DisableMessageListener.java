@@ -21,15 +21,15 @@ public class DisableMessageListener implements Listener {
         e.setQuitMessage("");
     }
 
-    @EventHandler
-    public void onAsyncChat(AsyncChatEvent event){
-        Player p  = event.getPlayer();
-        String Message = event.originalMessage().toString();
-        if(Message.contains("/warp")) {
-            p.sendMessage("想搞事");
-        }
-        return;
-    }
+//     @EventHandler
+//     public void onAsyncChat(AsyncChatEvent event){
+//         Player p  = event.getPlayer();
+//         String Message = event.originalMessage().toString();
+//         if(Message.contains("/warp")) {
+//             p.sendMessage("想搞事");
+//         }
+//         return;
+//     }
 
 
 
